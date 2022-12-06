@@ -1,0 +1,35 @@
+.jumbotron
+{
+    background-color: #DD0000;
+    font-family: 'ESP_Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.playerSec
+{
+    margin-right: 20px;
+}
+.playerphotos
+{
+    margin-left: 20VH;
+}
+.playertitles
+{
+    margin-right: 10px;
+}
+.playertitles:hover
+{
+    color: #DD0000;
+}
+.analysttitle
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50VH;
+}
