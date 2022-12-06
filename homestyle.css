@@ -21,7 +21,7 @@
 }
 .playertitles
 {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .playertitles:hover
 {
@@ -32,4 +32,25 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50VH;
+}
+.footer
+{
+    background-color:#DD0000;
+}
+.footertext
+{
+    color: white;
+    font-size: 30px;
+}
+.nav-style
+{
+    background-color: #48494A;
+}
+.navtitle
+{
+}
+.imgstyle
+{
+    width: 100px;
+    height: 100px;
 }
