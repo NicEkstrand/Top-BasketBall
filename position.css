@@ -1,3 +1,8 @@
+/*Background CSS*/
+body{
+    background-color: #48494a;
+}
+
 .title-section{
     height: 20vh;
     margin-bottom: 20px;
@@ -6,6 +11,8 @@
     justify-content: center;
     align-items: center;
     background-image: url(title-backdrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 .container [class^="col-"]{
@@ -271,17 +278,23 @@
     color: white;
 }
 
+/*Player CSS*/
+.player{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #676a6d;
+}
+
 .player img{
     width: 25vw;
     margin: 10px;
 
 }
 
-.players{
-    justify-content: center;
+.best{
+    background-color: #b40000;
 }
 
-.player{
-    margin-top: 20px;
-    margin-bottom: 20px;
+.player-text{
+    align-items: center;
 }
