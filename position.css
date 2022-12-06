@@ -1,7 +1,29 @@
 .title-section{
+    height: 20vh;
+    margin-bottom: 20px;
     display: flex;
     width: 100vw;
     justify-content: center;
     align-items: center;
+    background-image: url(title-backdrop.png);
     
+}
+
+.title{
+    color: white;
+}
+
+.player img{
+    width: 25vw;
+    margin: 10px;
+
+}
+
+.players{
+    justify-content: center;
+}
+
+.player{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
