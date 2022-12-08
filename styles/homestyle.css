@@ -1,5 +1,5 @@
-.jumbotron
-{
+/* headers */
+.jumbotron {
     display: flex;
     align-items: center;
     text-align: center;
@@ -10,69 +10,67 @@
     line-height: 77px;
     color: #FFFFFF;
 }
-.playerSec
-{
+
+.playerSec {
     margin-right: 20px;
 }
-.playerphotos
-{
+
+/* Images */
+.playerphotos {
     margin-left: 20VH;
 }
 
-.position-photo img{
+.position-photo img {
     height: 20vh;
     width: auto;
 }
 
-.playertitles
-{
+/* Positions */
+.playertitles {
     margin-right: 5px;
 }
-.position-title:hover
-{
+
+.position-title:hover {
     color: #DD0000;
 }
 
-.position-title > a:visited{
+.position-title>a:visited {
     color: #000000
 }
 
-/*Position Tab CSS*/
-.position-tabs{
+
+.position-tabs {
     display: flex;
     justify-content: space-evenly;
 }
 
-.position-title{
+.position-title {
     display: flex;
     justify-content: center;
 }
 
-.analyst-title
-{
+.analyst-title {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.footer
-{
-    background-color:#DD0000;
+
+/* footer */
+.footer {
+    background-color: #DD0000;
 }
-.footertext
-{
+
+.footertext {
     color: white;
     font-size: 30px;
 }
-.nav-style
-{
+
+/* navbar */
+.nav-style {
     background-color: #48494A;
 }
-.navtitle
-{
-}
-.imgstyle
-{
-    width: 100px;
-    height: 100px;
+
+.navbar-expand-lg {
+    justify-content: center;
 }
