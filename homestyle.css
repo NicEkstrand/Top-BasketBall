@@ -76,3 +76,7 @@
     width: 100px;
     height: 100px;
 }
+
+.navbar-expand-lg {
+    justify-content: center;
+}

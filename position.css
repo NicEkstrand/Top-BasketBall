@@ -16,6 +16,33 @@ body{
     background-size: cover;
 }
 
+.container [class^="col-"]{
+    border: 2px solid black;
+}
+.img{
+    height:100vh;
+    width:100vh;
+}
+
+.navbar-expand-lg {
+    justify-content: center;
+}
+
+/* Home */
+.background{
+    position: relative;
+    width: 1728px;
+    height: 2264px;
+    
+    background: #FFFFFF;
+    }
+
+    /* primary3 */
+    .top-basketball-red{
+    background: #DD0000;
+    }
+    
+ 
 .title{
     color: #FFFFFF;
 }
