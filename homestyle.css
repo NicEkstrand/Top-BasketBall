@@ -1,14 +1,13 @@
 .jumbotron
 {
-    background-color: #DD0000;
-    font-family: 'ESP_Italic';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 77px;
     display: flex;
     align-items: center;
     text-align: center;
+    background-color: #DD0000;
+    font-family: 'ESP_Bold_Italic';
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 77px;
     color: #FFFFFF;
 }
 .playerSec
@@ -19,14 +18,36 @@
 {
     margin-left: 20VH;
 }
+
+.position-photo img{
+    height: 20vh;
+    width: auto;
+}
+
 .playertitles
 {
     margin-right: 5px;
 }
-.playertitles:hover
+.position-title:hover
 {
     color: #DD0000;
 }
+
+.position-title > a:visited{
+    color: #000000
+}
+
+/*Position Tab CSS*/
+.position-tabs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.position-title{
+    display: flex;
+    justify-content: center;
+}
+
 .analysttitle
 {
     margin-top: 20px;

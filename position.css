@@ -37,6 +37,8 @@ body{
     }
     
     .home-top-basketball-container{
+        display: flex;
+        justify-content: center;
     }
     
     /* primary3 */
@@ -247,7 +249,6 @@ body{
     
     color: #FFFFFF;
     }
-    
     
     /* Rectangle 25 */
     .description-image-container{
